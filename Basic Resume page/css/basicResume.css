@@ -7,6 +7,7 @@
   font-size: 12px;
 }
 
+/*-------- header4 styles --------*/
 .upper-row{
   height: 40px;
 }
@@ -54,8 +55,7 @@ h1{
   font-weight: bold;
   padding-left: 25px;
 }
-
-ul{
+#my-info > ul{
   list-style-type: none;
   padding-right: 15px;
   margin-top: -4px;
@@ -63,46 +63,27 @@ ul{
   text-align: right;
 }
 
-.main_content{
-  background-color: blue;
-}
+/*-------- main content styles --------*/
 
-.menu_items{
-  border: solid black 1px;
-  height: 100px;
-  margin-left: 8px;
+.resume-item{
+  margin-left: 25px;
   margin-right: 8px;
   margin-bottom: 15px;
-  background-color: lightgrey;
-  overflow: hidden;
   position: relative;
 }
 
 .title-region{
-  border: solid black 1px;
-  float: left;
   height: 24px;
-  width: 150px;
   position: relative;
   margin-bottom: 6px;
   margin-top: -2px;
-  margin-right: -2px;
-  text-align: center;
   font-weight: bold;
   font-size: 225%;
+  color: #a5300f;
 }
 
-#title-region-1{
-  background-color: pink;
-}
-
-#title-region-2{
-  background-color: red;
-  color: white;
-}
-
-#title-region-3{
-  background-color: lightyellow;
+.subtitle-region{
+  color: #a5300f;
 }
 
 p{
@@ -114,6 +95,18 @@ p{
   padding-left: 4px;
   padding-right: 4px;
   padding-bottom: 4px;
+}
+
+#item-text2 > ul > ul, #item-text2. li{
+  list-style-type: none;
+}
+
+#resume-item-8{
+  float: left;
+}
+
+table{
+  margin-bottom: 10px;
 }
 
 /* Simple Responsive Framework. */
