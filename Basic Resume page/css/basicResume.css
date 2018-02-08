@@ -36,11 +36,44 @@ h1{
   color: #a5300f;
  }
 
+#triangle-up {
+ 
+  border-left: 50% solid transparent;
+  border-right: 50% solid transparent;
+  border-bottom: 100% solid red;
+ }
+
 #container5{
   background-color: #e5c039;
-  color: #e5c039;
+  color: #e5c039; 
+}
+/*---------------------------------------------
+#flag { 
+ width: 80px;
+ height: 120px;
+ padding-top: 15px;
+ position: relative;
+ background: #e5c039;
+ color: white;
+ font-size: 11px;
+ letter-spacing: 0.2em;
+ text-align: center;
+ text-transform: uppercase;
 }
 
+#flag:after {
+  content: "";
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 13px solid #eee;
+  border-left: 55px
+  solid transparent;
+  border-right: 55px solid transparent;
+}
+/*---------------------------------------------*/
 #container6{
   color: white;
 }
@@ -154,6 +187,12 @@ table{
   }
   .col-lg-12 {
     width: 100%;
+  }
+  .lower-row {
+   height: 150px;
+  }
+  #container4{
+    margin-top: 20px;
   }
 }
 
