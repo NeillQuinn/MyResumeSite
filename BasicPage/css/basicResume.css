@@ -33,15 +33,17 @@ h1{
 
 #container3{
   background-color: #a5300f;
-  color: #a5300f;
+  color:  #e5c039;
+  text-decoration: none;
+  
  }
 
-#triangle-up {
- 
-  border-left: 50% solid transparent;
-  border-right: 50% solid transparent;
-  border-bottom: 100% solid red;
- }
+#container3 > p{
+  margin-left: 12px;
+  margin-top: 8px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
 
 #container5{
   background-color: #e5c039;
